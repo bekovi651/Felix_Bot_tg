@@ -1,0 +1,40 @@
+mobs = {
+    'empty_world' : {'spider': [20,5,13,10001,50], 'mother-spider': [100,20,100,10002,20], 'mouse': [40,5,15,10003,100], 'meatbug': [10,5,1,10005,50], 'ghost_eye':[40,20,30,10006,30],
+    'Twilight_Wolf': [40,20,30,10007,20],'mimik': [200,5,40,10008,60],'gholem': [50,40,100,10009,20],'piksi': [30,100,80,10010,80],'wife-ghost': [100,100,500,10011,80],'husband-ghost': [10,1000,10,10012,80],
+    'water-lady':[100,10,40,10013,20],
+    },
+}
+mobsID = {
+    27: ['Паук', mobs['empty_world']['spider']],
+    48: ['Туалетный паук',  mobs['empty_world']['spider']],
+    84: ['Гигантская Крыса',  mobs['empty_world']['mouse']],
+    118: ['Мясной Жук',  mobs['empty_world']['meatbug']],
+    120: ['Мясной Жук',  mobs['empty_world']['meatbug']],
+    122: ['Мясной Жук',  mobs['empty_world']['meatbug']],
+    139: ['Призрачный глаз',  mobs['empty_world']['ghost_eye']],
+    152: ['Кикимора',  mobs['empty_world']['water-lady']],
+    1001003: ['Мать паучиха',  mobs['empty_world']['mother-spider']],
+    1001007: ['Тёмный паук',  mobs['empty_world']['spider']],
+    1001011: ['Гигантская Крыса',  mobs['empty_world']['mouse']],
+    1001015: ['Мясной Жук',  mobs['empty_world']['meatbug']],
+    1001019: ['Призрачный глаз',  mobs['empty_world']['ghost_eye']],
+
+    1001023: ['Сумеречный волк',  mobs['empty_world']['Twilight_Wolf']],
+    1001027: ['Мимик',  mobs['empty_world']['mimik']],
+    1001031: ['Голем',  mobs['empty_world']['gholem']],
+    1001035: ['Пикси',  mobs['empty_world']['piksi']],
+    1001039: ['Дух невесты',  mobs['empty_world']['wife-ghost']],
+    1001043: ['Дух утопленника',  mobs['empty_world']['husband-ghost']],
+}
+mobs_photos = {
+    48:27,
+    27:27,
+    1001003:1001003,
+    1001007:27,
+    1001011:1001011,
+    1001015:1001015,
+    118:1001015,
+    120:1001015,
+    122:1001015,
+    1001019:1001019,
+}
